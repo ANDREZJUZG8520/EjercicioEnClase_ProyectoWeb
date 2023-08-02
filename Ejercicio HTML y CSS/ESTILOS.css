@@ -1,0 +1,224 @@
+/*Pagina principal*/
+*{
+    margin: 0px;
+    font-family: 'Golos Text', sans-serif;
+    text-decoration: none;
+    color:rgb(255, 254, 221);
+    }
+    a{
+        color:rgb(255, 254, 221);
+        font-family: 'Golos Text', sans-serif;
+    }
+  
+    .search{
+        width: 100%;
+        height: 45px;
+        color: rgb(0, 0, 0);
+        font-size: .3em;
+        padding-left: 10%;
+        justify-content: center;
+    }
+
+    body.Inicio{
+        background-image: url("img/Fondo_Inicio.jpg" );
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+    body.Inicio_Cuerdas{
+      background-image: url("img/Fondo_Cuerdas.jpg" );
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+  }
+  body.Inicio_vientos{
+      background-image: url("img/Fondo_vientos.jpg" );
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+  }
+
+  body.Inicio_Percucion{
+    background-image: url("img/Fondo_Percusion.jpg" );
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+body.Inicio_Accesorios{
+  background-image: url("img/Fondo_Accsorios.jpg" );
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+    div.titulo a:hover{
+        color: black;
+        text-decoration: underline;
+        font-weight:bold;
+    }
+    
+    header{
+        display: flex;
+        background-color:rgb(55, 44, 34,.8);
+        font-size: 3em;
+        padding: .5em;
+        justify-content:space-around;
+        align-items:center;
+    }
+    header.input::placeholder{
+        color:rgb(255, 254, 221);
+        padding: .7em;
+    }
+    input{
+        background-color: rgb(255, 254, 221);;
+        padding: .3em;
+        border-radius: 20px;
+    }
+    .principal{
+        width: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+    }
+    .enlase_lateral{
+        background-color: rgb(55, 44, 34,.8);
+        border-radius: 5px;
+        width: 500px;
+        padding: .5em;
+        margin: 2em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .enlase_lateral:hover {
+        font-size: 2em;
+        margin-left: 100px;
+        background: #adadad;
+        font-weight:bold;
+      }
+    footer{
+        display: flex;
+        align-items: flex-end;
+    }
+    .footer,img{
+        margin: 1em;
+        padding: 1em;
+    }
+
+    li {
+        list-style-type: none;
+      }
+
+/*Paginas Segundarias*/
+      .seccionArticulos{
+        background-color:#3d3d3d;
+        border-radius: 5px;
+        width: 400px;
+        text-align: center;
+      }
+      .seccionArticulos a{
+        color: rgb(255, 254, 221);
+      }
+      .seccionArticulos:hover{
+        background: #1e1e1e;
+    }
+      header2{
+        margin: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .SubMenus{
+        display: flex;
+        justify-content: center;
+        margin: none;
+      }
+      
+      .header2Menu{
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 50px;
+        width: 300px;
+        padding: 1em;
+        margin: 1em;
+        text-align: center;
+        font-size: 1em;
+      }
+      .header2Menu:hover {
+        font-size: 1.05em;
+        background: #adadad;
+        font-weight:bold;
+      }
+      .busquedaMenu{
+        width: 75%;
+        height: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        padding:1em;
+        margin: 1em;
+      }
+      .busqueda2{
+        margin:none;
+        padding: none;
+        justify-content: center;
+      }
+      .busqueda2.input::placeholder{
+        color:rgb(255, 254, 221);
+        padding: .7em;
+    }
+/*Contenido Productos*/
+
+       .contenedor{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        padding: 1em;
+        }
+        .producto{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(55, 44, 34,.8);
+            border-radius: 30px ;
+            text-align: center;
+            margin: 2em;
+            width:400px;
+          }
+        .producto a{
+            background-color:rgb(255, 254, 216);
+
+            margin:2em;
+            color: #1e1e1e;
+            padding: .5em;
+            border-radius: 30px ;
+        }
+        .producto img{
+            display: flex;
+            width: 80%;
+            border-radius: 30px ;
+            justify-content: center;
+        }
+        .producto h2{
+            color:rgb(255, 255, 255);
+            margin-top: 5px;
+            font-size: 1.5em;
+        }
+        .producto p{
+            color:rgb(255, 255, 255);
+            margin-top: 5px;
+            font-size: .7em;
+        }
+        
+    
